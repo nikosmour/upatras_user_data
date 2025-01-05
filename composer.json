@@ -1,0 +1,23 @@
+{
+	"name"             : "nikosmour/upatras_user_data",
+	"description"      : "Get the User Data from mussa.upnet.gr ",
+  "type": "library",
+	"minimum-stability": "stable",
+	"license"          : "proprietary",
+	"authors"          : [
+		{
+			"name" : "nikolaos Mouratidis",
+			"email": "nikos.moura@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"UpatrasUserData\\": "src/UpatrasUserData/"
+		}
+	},
+	"require"          : {
+    "php": "^8.0",
+		"laravel/framework": "9.*|10.*|11.*"
+	},
+	"version": "v1.0.0"
+}
